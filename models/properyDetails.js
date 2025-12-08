@@ -1,29 +1,43 @@
 const mongoose = require("mongoose");
 
-const propertyDetailSchema = new mongoose.Schema(
+const propertyDetailsSchema = new mongoose.Schema(
   {
-    propertyName: {
-      type: String,
+    propertyId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Property",
       required: true,
+      unique: true, 
+    },
+    class: {
+      type: String,
+    },
+    yearBuilt: {
+      type: Number,
+    },
+    listingBrokers: {
+      type: String,
     },
     grossArea: {
       type: String,
-      required: true,
     },
     nra: {
       type: String,
-      required: true,
     },
     officeNra: {
       type: String,
     },
     floorCount: {
       type: Number,
-    }
+    },
+    lastRenovated: {
+      type: Date,
+    },
   },
   {
     timestamps: true,
   }
 );
 
-module.exports = mongoose.model("PropertyDetails", propertyDetailSchema);
+const PropertyDetails = mongoose.model("PropertyDetails", propertyDetailsSchema);
+
+module.exports = PropertyDetails;

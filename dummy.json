@@ -1,0 +1,466 @@
+{
+  "properties": [
+    {
+      "property": {
+        "propertyName": "Downtown Business Center",
+        "propertyAddress": "1500 Market Street, Philadelphia, PA 19102",
+        "status": "occupied",
+        "market": "Philadelphia CBD",
+        "subMarket": "Center City East",
+        "totalSpaces": 48,
+        "occupiedSpaces": 42,
+        "occupancy": 87.5,
+        "dataStack": 1,
+        "assignedTo": "John Smith"
+      },
+      "propertyDetails": {
+        "class": "A",
+        "yearBuilt": 2015,
+        "listingBrokers": "CBRE, Jones Lang LaSalle",
+        "grossArea": "250000 sqft",
+        "nra": "235000 sqft",
+        "officeNra": "220000 sqft",
+        "floorCount": 12,
+        "lastRenovated": "2022-06-15"
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Ground Floor - Lobby",
+          "floorSize": "15000 sqft",
+          "slabHeight": "14 ft"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "Second Floor",
+          "floorSize": "20000 sqft",
+          "slabHeight": "12 ft"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Third Floor",
+          "floorSize": "20000 sqft",
+          "slabHeight": "12 ft"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Fourth Floor",
+          "floorSize": "20000 sqft",
+          "slabHeight": "12 ft"
+        }
+      ],
+      "spaces": [
+        {
+          "floorNumber": 2,
+          "suiteNumber": 201,
+          "tenant": "Tech Innovations LLC",
+          "spaceSize": "5000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2023-01-15"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 202,
+          "tenant": "Marketing Pros Inc",
+          "spaceSize": "3500 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2023-03-20"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 203,
+          "tenant": "",
+          "spaceSize": "2800 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-11-01"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 301,
+          "tenant": "Legal Partners Group",
+          "spaceSize": "8000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2022-09-10"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 302,
+          "tenant": "Finance Advisors",
+          "spaceSize": "4500 sqft",
+          "directSublease": "sublease",
+          "dateOnMarket": "2023-07-01"
+        },
+        {
+          "floorNumber": 4,
+          "suiteNumber": 401,
+          "tenant": "",
+          "spaceSize": "6000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-10-15"
+        }
+      ]
+    },
+    {
+      "property": {
+        "propertyName": "Harbor View Office Plaza",
+        "propertyAddress": "800 Harbor Boulevard, San Diego, CA 92101",
+        "status": "occupied",
+        "market": "San Diego",
+        "subMarket": "Downtown Waterfront",
+        "totalSpaces": 36,
+        "occupiedSpaces": 30,
+        "occupancy": 83.3,
+        "dataStack": 2,
+        "assignedTo": "Sarah Johnson"
+      },
+      "propertyDetails": {
+        "class": "A+",
+        "yearBuilt": 2019,
+        "listingBrokers": "Cushman & Wakefield",
+        "grossArea": "180000 sqft",
+        "nra": "170000 sqft",
+        "officeNra": "165000 sqft",
+        "floorCount": 9,
+        "lastRenovated": "2023-03-10"
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Retail & Lobby",
+          "floorSize": "12000 sqft",
+          "slabHeight": "16 ft"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "Second Floor",
+          "floorSize": "18000 sqft",
+          "slabHeight": "13 ft"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Third Floor",
+          "floorSize": "18000 sqft",
+          "slabHeight": "13 ft"
+        }
+      ],
+      "spaces": [
+        {
+          "floorNumber": 2,
+          "suiteNumber": 200,
+          "tenant": "Biotech Research Corp",
+          "spaceSize": "12000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2021-05-20"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 210,
+          "tenant": "",
+          "spaceSize": "6000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-09-01"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 300,
+          "tenant": "Consulting Partners",
+          "spaceSize": "10000 sqft",
+          "directSublease": "sublease",
+          "dateOnMarket": "2023-02-15"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 320,
+          "tenant": "Design Studio Plus",
+          "spaceSize": "5000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2022-11-30"
+        }
+      ]
+    },
+    {
+      "property": {
+        "propertyName": "Metro Corporate Tower",
+        "propertyAddress": "2200 Corporate Drive, Austin, TX 78701",
+        "status": "vacant",
+        "market": "Austin",
+        "subMarket": "Domain",
+        "totalSpaces": 60,
+        "occupiedSpaces": 15,
+        "occupancy": 25.0,
+        "dataStack": 1,
+        "assignedTo": "Michael Chen"
+      },
+      "propertyDetails": {
+        "class": "B+",
+        "yearBuilt": 2008,
+        "listingBrokers": "JLL, Colliers International",
+        "grossArea": "320000 sqft",
+        "nra": "300000 sqft",
+        "officeNra": "285000 sqft",
+        "floorCount": 15,
+        "lastRenovated": "2020-08-22"
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Ground Floor",
+          "floorSize": "18000 sqft",
+          "slabHeight": "15 ft"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "Second Floor",
+          "floorSize": "21000 sqft",
+          "slabHeight": "12 ft"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Third Floor",
+          "floorSize": "21000 sqft",
+          "slabHeight": "12 ft"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Fourth Floor",
+          "floorSize": "21000 sqft",
+          "slabHeight": "12 ft"
+        },
+        {
+          "floorNumber": 5,
+          "floorName": "Fifth Floor",
+          "floorSize": "21000 sqft",
+          "slabHeight": "12 ft"
+        }
+      ],
+      "spaces": [
+        {
+          "floorNumber": 2,
+          "suiteNumber": 201,
+          "tenant": "Software Solutions Inc",
+          "spaceSize": "7000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-01-10"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 202,
+          "tenant": "",
+          "spaceSize": "5500 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-06-15"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 301,
+          "tenant": "",
+          "spaceSize": "8000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-08-01"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 302,
+          "tenant": "",
+          "spaceSize": "6500 sqft",
+          "directSublease": "sublease",
+          "dateOnMarket": "2024-09-20"
+        },
+        {
+          "floorNumber": 4,
+          "suiteNumber": 401,
+          "tenant": "",
+          "spaceSize": "10000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-07-10"
+        },
+        {
+          "floorNumber": 5,
+          "suiteNumber": 501,
+          "tenant": "Accounting Services Group",
+          "spaceSize": "4000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2023-12-05"
+        }
+      ]
+    },
+    {
+      "property": {
+        "propertyName": "Silicon Valley Tech Hub",
+        "propertyAddress": "3500 Innovation Way, San Jose, CA 95134",
+        "status": "occupied",
+        "market": "Silicon Valley",
+        "subMarket": "North San Jose",
+        "totalSpaces": 55,
+        "occupiedSpaces": 52,
+        "occupancy": 94.5,
+        "dataStack": 3,
+        "assignedTo": "Emily Rodriguez"
+      },
+      "propertyDetails": {
+        "class": "A+",
+        "yearBuilt": 2021,
+        "listingBrokers": "CBRE",
+        "grossArea": "400000 sqft",
+        "nra": "385000 sqft",
+        "officeNra": "370000 sqft",
+        "floorCount": 18,
+        "lastRenovated": "2024-01-15"
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Lobby & Amenities",
+          "floorSize": "20000 sqft",
+          "slabHeight": "18 ft"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "Second Floor",
+          "floorSize": "22000 sqft",
+          "slabHeight": "14 ft"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Third Floor",
+          "floorSize": "22000 sqft",
+          "slabHeight": "14 ft"
+        },
+        {
+          "floorNumber": 4,
+          "floorName": "Fourth Floor - Premium",
+          "floorSize": "22000 sqft",
+          "slabHeight": "14 ft"
+        }
+      ],
+      "spaces": [
+        {
+          "floorNumber": 2,
+          "suiteNumber": 2100,
+          "tenant": "CloudTech Systems",
+          "spaceSize": "15000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2021-08-01"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 2200,
+          "tenant": "AI Innovations",
+          "spaceSize": "7000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2022-03-15"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 3100,
+          "tenant": "Quantum Computing Labs",
+          "spaceSize": "20000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2021-09-10"
+        },
+        {
+          "floorNumber": 4,
+          "suiteNumber": 4100,
+          "tenant": "Venture Capital Partners",
+          "spaceSize": "12000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2022-01-20"
+        },
+        {
+          "floorNumber": 4,
+          "suiteNumber": 4200,
+          "tenant": "",
+          "spaceSize": "8000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-11-15"
+        }
+      ]
+    },
+    {
+      "property": {
+        "propertyName": "Riverside Business Park",
+        "propertyAddress": "750 Riverside Avenue, Jacksonville, FL 32204",
+        "status": "occupied",
+        "market": "Jacksonville",
+        "subMarket": "Riverside",
+        "totalSpaces": 28,
+        "occupiedSpaces": 21,
+        "occupancy": 75.0,
+        "dataStack": 1,
+        "assignedTo": "David Williams"
+      },
+      "propertyDetails": {
+        "class": "B",
+        "yearBuilt": 2010,
+        "listingBrokers": "NAI Hallmark, Colliers",
+        "grossArea": "140000 sqft",
+        "nra": "132000 sqft",
+        "officeNra": "125000 sqft",
+        "floorCount": 7,
+        "lastRenovated": "2019-05-30"
+      },
+      "floors": [
+        {
+          "floorNumber": 1,
+          "floorName": "Ground Floor",
+          "floorSize": "16000 sqft",
+          "slabHeight": "13 ft"
+        },
+        {
+          "floorNumber": 2,
+          "floorName": "Second Floor",
+          "floorSize": "19000 sqft",
+          "slabHeight": "11 ft"
+        },
+        {
+          "floorNumber": 3,
+          "floorName": "Third Floor",
+          "floorSize": "19000 sqft",
+          "slabHeight": "11 ft"
+        }
+      ],
+      "spaces": [
+        {
+          "floorNumber": 2,
+          "suiteNumber": 205,
+          "tenant": "Medical Associates",
+          "spaceSize": "6000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2022-04-01"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 210,
+          "tenant": "Insurance Group",
+          "spaceSize": "4500 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2023-01-10"
+        },
+        {
+          "floorNumber": 2,
+          "suiteNumber": 215,
+          "tenant": "",
+          "spaceSize": "3200 sqft",
+          "directSublease": "sublease",
+          "dateOnMarket": "2024-10-01"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 305,
+          "tenant": "Real Estate Firm",
+          "spaceSize": "5500 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2021-11-20"
+        },
+        {
+          "floorNumber": 3,
+          "suiteNumber": 310,
+          "tenant": "",
+          "spaceSize": "4000 sqft",
+          "directSublease": "direct",
+          "dateOnMarket": "2024-08-15"
+        }
+      ]
+    }
+  ]
+}
