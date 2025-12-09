@@ -181,6 +181,37 @@ const updateFloor = async (req, res) => {
     });
   }
 };
+const updateSpace = async (req, res) => {
+  try {
+    const { propertyId } = req.params;
+    const { spaceId, ...updates } = req.body; 
+
+    const updatedSpace = await Space.findOneAndUpdate(
+      { _id: spaceId, propertyId: propertyId },
+      { $set: updates },
+      { new: true }
+    );
+
+    if (!updatedSpace) {
+      return res.status(404).json({
+        success: false,
+        message: "Space not found for this property",
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      message: "Space updated successfully",
+      payload: updatedSpace,
+    });
+
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
 
 
 module.exports = {
@@ -190,5 +221,6 @@ module.exports = {
     updatePropertyDetail,
     getFloorsById,
     getSpacesById,
-    updateFloor
+    updateFloor,
+    updateSpace
 };
