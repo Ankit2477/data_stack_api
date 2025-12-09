@@ -121,7 +121,6 @@ const getSpacesById = async (req, res) => {
   }
 };
 
-
 const updatePropertyDetail = async (req, res) => {
   try {
     const { id } = req.params;  
@@ -151,7 +150,37 @@ const updatePropertyDetail = async (req, res) => {
   }
 };
 
+const updateFloor = async (req, res) => {
+  try {
+    const { propertyId } = req.params;
+    const { floorId, ...updates } = req.body; 
 
+    const updatedFloor = await Floor.findOneAndUpdate(
+      { _id: floorId, propertyId: propertyId },
+      { $set: updates },
+      { new: true }
+    );
+
+    if (!updatedFloor) {
+      return res.status(404).json({
+        success: false,
+        message: "Floor not found for this property",
+      });
+    }
+
+    res.status(200).json({
+      success: true,
+      message: "Floor updated successfully",
+      payload: updatedFloor,
+    });
+
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
 
 
 module.exports = {
@@ -160,5 +189,6 @@ module.exports = {
     getPropertyDetailById,
     updatePropertyDetail,
     getFloorsById,
-    getSpacesById
+    getSpacesById,
+    updateFloor
 };
