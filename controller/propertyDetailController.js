@@ -153,11 +153,26 @@ const updatePropertyDetail = async (req, res) => {
 const updateFloor = async (req, res) => {
   try {
     const { propertyId } = req.params;
-    const { floorId, ...updates } = req.body; 
+    const { floorId, floorNumber, ...updates } = req.body;
+
+    if (floorNumber !== undefined) {
+      const exists = await Floor.findOne({
+        propertyId,
+        floorNumber,
+        _id: { $ne: floorId }
+      });
+
+      if (exists) {
+        return res.status(400).json({
+          success: false,
+          message: `Floor number ${floorNumber} already exists for this property`,
+        });
+      }
+    }
 
     const updatedFloor = await Floor.findOneAndUpdate(
-      { _id: floorId, propertyId: propertyId },
-      { $set: updates },
+      { _id: floorId, propertyId },
+      { $set: { floorNumber, ...updates } },
       { new: true }
     );
 
@@ -181,6 +196,8 @@ const updateFloor = async (req, res) => {
     });
   }
 };
+
+
 const updateSpace = async (req, res) => {
   try {
     const { propertyId } = req.params;
